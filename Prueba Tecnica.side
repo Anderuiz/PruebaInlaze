@@ -8,21 +8,21 @@
     "name": "Untitled",
     "commands": [{
       "id": "e9a2ed38-7f7f-4477-a99d-6853271b2866",
-      "comment": "",
+      "comment": "Abrir nueva ventana con la URL seleccionada",
       "command": "open",
       "target": "/auth/sign-in",
       "targets": [],
       "value": ""
     }, {
       "id": "81bdf390-3642-4462-810a-b99f02f017db",
-      "comment": "",
+      "comment": "agrandar nueva ventana",
       "command": "setWindowSize",
       "target": "1038x679",
       "targets": [],
       "value": ""
     }, {
       "id": "48a929f4-e129-42a2-97d8-8bef3e64c3f9",
-      "comment": "",
+      "comment": "Clic en el boton Sign up",
       "command": "click",
       "target": "linkText=Sign up",
       "targets": [
@@ -45,10 +45,10 @@
         ["xpath=//input[@id='full-name']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": ""
+      "value": "Clic en el campo Nombre"
     }, {
       "id": "aff4ceb3-15d6-4b65-b6cc-fcd2bdaa18b0",
-      "comment": "",
+      "comment": "Ingresar combre completo",
       "command": "type",
       "target": "id=full-name",
       "targets": [
@@ -60,7 +60,7 @@
       "value": "Anderson Smith Ruiz Sabogal"
     }, {
       "id": "bce63f70-1a83-4a5e-9098-c6394549a8df",
-      "comment": "",
+      "comment": "Clic en el campo Email",
       "command": "click",
       "target": "id=email",
       "targets": [
@@ -72,7 +72,7 @@
       "value": ""
     }, {
       "id": "08612757-5749-46bd-bc23-a6749cb2349e",
-      "comment": "",
+      "comment": "Ingresar Email ",
       "command": "type",
       "target": "id=email",
       "targets": [
@@ -84,7 +84,7 @@
       "value": "andersonruiz0783@gmail.com"
     }, {
       "id": "69df784b-1eb3-48c9-93fe-36d6477b3378",
-      "comment": "",
+      "comment": "Clic en el campo Contraseña",
       "command": "click",
       "target": "css=.w-full > #password",
       "targets": [
@@ -96,7 +96,7 @@
       "value": ""
     }, {
       "id": "2bfd9b4b-c379-4a18-8169-ab84e46b9f51",
-      "comment": "",
+      "comment": "Ingresar contraseña",
       "command": "type",
       "target": "css=.w-full > #password",
       "targets": [
@@ -108,7 +108,7 @@
       "value": "Anderson01*"
     }, {
       "id": "125e01eb-a931-4100-b7b4-90ff1102c926",
-      "comment": "",
+      "comment": "Clic en el campo confirmar contraseña",
       "command": "click",
       "target": "css=.w-full > #confirm-password",
       "targets": [
@@ -120,7 +120,7 @@
       "value": ""
     }, {
       "id": "1f0a468c-2bdb-4e51-a6f3-2b24323eedf5",
-      "comment": "",
+      "comment": "Ingresar la confirmacion de la contraseña ",
       "command": "type",
       "target": "css=.w-full > #confirm-password",
       "targets": [
@@ -132,7 +132,7 @@
       "value": "Anderson01*"
     }, {
       "id": "cd38365f-46ef-4d76-a340-419d7db2ce29",
-      "comment": "",
+      "comment": "Clic en el botón Registrarse",
       "command": "click",
       "target": "css=.btn:nth-child(5)",
       "targets": [
@@ -143,7 +143,7 @@
       "value": ""
     }, {
       "id": "0ba82fa7-da2f-467d-b2bf-667b7fca5201",
-      "comment": "",
+      "comment": "Clic en el campo Email",
       "command": "click",
       "target": "id=email",
       "targets": [
@@ -155,7 +155,7 @@
       "value": ""
     }, {
       "id": "080e6afe-318d-466f-9ff1-9d76b8d3f231",
-      "comment": "",
+      "comment": "Ingresar Email registrado",
       "command": "type",
       "target": "id=email",
       "targets": [
@@ -167,7 +167,7 @@
       "value": "andersonruiz0783@gmail.com"
     }, {
       "id": "a72ba311-bde4-4e77-a291-596674ab1e51",
-      "comment": "",
+      "comment": "Clic en el campo Contraseña",
       "command": "click",
       "target": "css=.w-full > #password",
       "targets": [
@@ -179,7 +179,7 @@
       "value": ""
     }, {
       "id": "b4c50ee6-0e5f-4216-a9ea-72429bc0e04c",
-      "comment": "",
+      "comment": "Ingresar contraseña registrada",
       "command": "type",
       "target": "css=.w-full > #password",
       "targets": [
@@ -191,7 +191,7 @@
       "value": "Anderson01*"
     }, {
       "id": "bd944ae1-a666-4637-b209-fe6cf3b6fbb7",
-      "comment": "",
+      "comment": "Clic en el Bóton Iniciar Sesión",
       "command": "click",
       "target": "css=.btn:nth-child(3)",
       "targets": [
@@ -201,17 +201,39 @@
       ],
       "value": ""
     }, {
-      "id": "ff3cf746-63a0-43eb-a0bf-4821b9c9c5e7",
+      "id": "667ef3cf-8906-4cbd-bf58-264fd5192301",
       "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3cf746-63a0-43eb-a0bf-4821b9c9c5e7",
+      "comment": "Clic en el icono superior izquierdo",
       "command": "click",
-      "target": "css=.w-3",
+      "target": "css=.w-10 > img",
       "targets": [
-        ["css=.w-3", "css:finder"]
+        ["css=.w-10 > img", "css:finder"],
+        ["xpath=//img[@alt='Rengoku']", "xpath:img"],
+        ["xpath=//label/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd59c5fd-486f-4ca1-aaad-aa357e52dd47",
+      "comment": "Clic en cerrar sesión",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
       "id": "14d29bb3-b99a-40c3-876f-4d480fe9e795",
-      "comment": "",
+      "comment": "Cerrar ventana",
       "command": "close",
       "target": "",
       "targets": [],
